@@ -1,0 +1,81 @@
+# Private clean-source repository policy; old repository history is not imported.
+# Ignore rules are advisory. The publication allowlist/content check is mandatory.
+node_modules/
+.next/
+dist/
+out/
+coverage/
+playwright-report/
+test-results/
+/release/
+*.tsbuildinfo
+next-env.d.ts
+*.log
+.DS_Store
+.idea/
+.vscode/
+
+# One active root template and one historical API reference; no blanket *.example exception.
+.env*
+*.env
+*.env.*
+!/server/.env.example
+!/.env.example
+
+# Original/private state must never be committed, even in a private repository.
+/.git-original/
+/.local-dev/
+/.private-legacy/
+/nextjs/
+/assets/
+/application/
+/include/
+/system/
+/vendor/
+.local-data/
+.private/
+backups/
+uploads/
+sessions/
+*.sqlite*
+*.db
+*.db-*
+*-journal
+*.sql
+*.dump
+*.bak
+*.backup
+*.old
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+.npmrc
+.netrc
+.mysql_history
+credentials.json
+secrets.json
+access.json
+
+# Company backgrounds contain private signature/stamp material.
+/server/assets/quotation-pdf/*.png
+/server/assets/quotation-pdf/*.jpg
+/server/assets/quotation-pdf/*.jpeg
+/resources/quotation-pdf/*.png
+/resources/quotation-pdf/*.jpg
+/resources/quotation-pdf/*.jpeg
+
+# Historical tooling is not a PHP runtime or release dependency of this checkout.
+*.php
+
+# Excluded private provenance; the requested public favicon is hash-pinned by the auditor.
+/public/legacy/manifest.json
+/resources/quotation-pdf/README.md
+/server/assets/quotation-pdf/README.md

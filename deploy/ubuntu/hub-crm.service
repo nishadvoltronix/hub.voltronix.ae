@@ -1,0 +1,61 @@
+# MANUAL TEMPLATE ONLY. No service or server has been changed.
+# Hub paths and host resources are proposed and must be verified by the operator.
+# Install ONLY as /etc/systemd/system/hub-crm.service after review.
+# Verify this app-local Node 24.x binary; do not replace system-wide Node.
+# One project, one root .env, one service; launcher owns Express and Next.
+# The NEW release .env must be an ordinary file, root:hub-crm mode 0640.
+# Create only the NEW release's .next/cache for hub-crm, mode 0700.
+[Unit]
+Description=Hub CRM Next.js and Express
+Documentation=file:/var/www/hub.voltronix_ae/hub-current/docs/manual-deployment-guide.md
+Wants=network-online.target
+After=network-online.target
+StartLimitIntervalSec=300
+StartLimitBurst=5
+
+[Service]
+Type=simple
+User=hub-crm
+Group=hub-crm
+WorkingDirectory=/var/www/hub.voltronix_ae/hub-current
+ExecStartPre=/var/www/hub.voltronix_ae/runtime/node/bin/node /var/www/hub.voltronix_ae/hub-current/tools/run-hub.mjs check
+ExecStart=/var/www/hub.voltronix_ae/runtime/node/bin/node /var/www/hub.voltronix_ae/hub-current/tools/run-hub.mjs start
+Restart=on-failure
+RestartSec=5
+KillSignal=SIGTERM
+KillMode=mixed
+TimeoutStartSec=60
+TimeoutStopSec=30
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+PrivateDevices=true
+ProtectSystem=strict
+ProtectHome=true
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectKernelLogs=true
+ProtectControlGroups=true
+ProtectClock=true
+ProtectHostname=true
+ProtectProc=invisible
+RestrictSUIDSGID=true
+RestrictRealtime=true
+LockPersonality=true
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+CapabilityBoundingSet=
+AmbientCapabilities=
+ReadOnlyPaths=/var/www/hub.voltronix_ae/hub-current
+ReadWritePaths=/var/www/hub.voltronix_ae/hub-current/.next/cache
+InaccessiblePaths=-/var/www/hub.voltronix_ae/hub-current/server/.local-data
+InaccessiblePaths=-/var/www/hub.voltronix_ae/hub-current/server/.env
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=hub-crm
+
+# No MemoryDenyWriteExecute: Node/V8 needs JIT executable memory.
+# No database service dependency or provisioning command; settings use root .env.
+# Disabled mode: liveness 200, readiness/authentication 503.
+# Native mode: startup checks database readiness before opening listeners.
+[Install]
+WantedBy=multi-user.target

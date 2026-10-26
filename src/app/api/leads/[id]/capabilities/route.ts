@@ -1,0 +1,7 @@
+import { NextRequest } from "next/server";
+import { leadMutationResponse } from "@/server/lead-mutations/http";
+export const runtime = "nodejs";
+type Context = { params: Promise<{ id: string }> };
+export function GET(request: NextRequest, context: Context) {
+  return leadMutationResponse(request, async ({ service, token }) => service.capabilities(token, (await context.params).id));
+}

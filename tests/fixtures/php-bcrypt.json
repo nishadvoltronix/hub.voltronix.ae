@@ -1,0 +1,35 @@
+{
+    "source": "Synthetic fixtures generated with PHP 8.2.34 PASSWORD_BCRYPT; never real CRM credentials.",
+    "cases": [
+        {
+            "name": "ascii",
+            "password": "Development-fixture-only-123!",
+            "hash": "$2y$04$Dkp0ErSgw4.NHw8\/S483\/eOh7FwEfFTVsDxoYScfzXeLj1.0BrEEi",
+            "phpVerified": true
+        },
+        {
+            "name": "unicode",
+            "password": "test-é中🔐-password",
+            "hash": "$2y$04$.m2tEaa.qr63Ng2OS.T85Octb90AemM4zgnxp2jTZVR2d6taEiQFu",
+            "phpVerified": true
+        },
+        {
+            "name": "spaces-preserved",
+            "password": "  Development fixture  ",
+            "hash": "$2y$04$D3vcbCPgfpdpzaiOyTPlSe23rh.vzYXwDFaUzyWCBg3uvgf2DRsrm",
+            "phpVerified": true
+        },
+        {
+            "name": "legacy-72-byte-truncation",
+            "password": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-suffix",
+            "hash": "$2y$04$3pYt9hhILN.Gy6lSwZn.qOc1nTFkrEVXFDbuD7Z335t\/LXoW.XLp2",
+            "phpVerified": true
+        },
+        {
+            "name": "unicode-72-byte-truncation",
+            "password": "éééééééééééééééééééééééééééééééééééé-suffix",
+            "hash": "$2y$04$PpmsNlWlQOeMp0URarsgJOh2MdEIp1c1rteX.KUoCCPHWW9i0rUWC",
+            "phpVerified": true
+        }
+    ]
+}

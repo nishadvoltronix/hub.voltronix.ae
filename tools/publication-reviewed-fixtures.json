@@ -1,0 +1,724 @@
+[
+  {
+    "path": "scripts/verify-mysql-offline-http.ts",
+    "sha256": "64c5ff86543b1bb5243ec8fcb5dd6e314841d3742ea3328f7ff9bbd8c82fb8fb",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "server/demo-sqlite/anonymous-browser.test.ts",
+    "sha256": "6c16c94ec0478f447fd26c17f3e82db0d90d1a302553f52f1b6c6e5930867eda",
+    "categories": [
+      "credential-bearing-url-candidate"
+    ]
+  },
+  {
+    "path": "server/demo-sqlite/approved-role-write-browser.test.ts",
+    "sha256": "ba674ab1bd5532598279c8d72f8cfade0d3123bf2cf3e0a61683f2de3b0f27fb",
+    "categories": [
+      "credential-bearing-url-candidate"
+    ]
+  },
+  {
+    "path": "server/demo-sqlite/browser-acceptance.test.ts",
+    "sha256": "7990470e5fb0ea9dc1a6e39d4bb4d58f84bbabc877c2b5749fa0ed2ccc4fdf87",
+    "categories": [
+      "credential-bearing-url-candidate",
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "server/demo-sqlite/current-user-browser.test.ts",
+    "sha256": "405004ace6d5b48fa4a5f6858a3ec99d0d3b66a8f5cc42f30f75c3432995df7c",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "server/demo-sqlite/current-user-crud-browser.test.ts",
+    "sha256": "7dd54ddea224257f8fcf9881e126ff78d198973add9eff80f396e87dc0162324",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "server/demo-sqlite/dashboard-coverage.test.ts",
+    "sha256": "0f10709dc045e62572d49fcdc931875e5fef2a06f3afac47ffdd0619f4c311e1",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "server/demo-sqlite/isolated-browser.test.ts",
+    "sha256": "eb9b26396fd1aa2abec4e678713717ff88461220c3f12a50631ac34f62d975a9",
+    "categories": [
+      "credential-bearing-url-candidate"
+    ]
+  },
+  {
+    "path": "server/demo-sqlite/local-attachments.test.ts",
+    "sha256": "fbdb032ed78fcb4f05a095e5a6dced49797a4305bd24842c4c0c12bd6d5da7ce",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "server/demo-sqlite/local-owner-reports.test.ts",
+    "sha256": "f8fdc0c3a324462ce4c2750a12523d081799a5781673a65e8e2715b37271b934",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "server/demo-sqlite/local-reads-import.test.ts",
+    "sha256": "5c139c965dffbc8c590021d86833d0c2874ccaf49b5fa852f6b1b897b911c721",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "server/demo-sqlite/manual-ui-check.test.ts",
+    "sha256": "013b7da97f32708e25cb4702b8456af34210abc3503e69ad182708518f64c0ab",
+    "categories": [
+      "credential-bearing-url-candidate"
+    ]
+  },
+  {
+    "path": "server/demo-sqlite/percentage-browser.test.ts",
+    "sha256": "8786947f930e90d54ac8de6f23792fcacd878c92b94ff5b16737f1efd7e20602",
+    "categories": [
+      "credential-bearing-url-candidate"
+    ]
+  },
+  {
+    "path": "server/demo-sqlite/runtime.test.ts",
+    "sha256": "b9842e5553203655575043ed1abf850d22d41d95f15daac078d35bc66fe5d81b",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "server/demo-sqlite/session-recovery.test.ts",
+    "sha256": "f411c8dd4171804c76496b297acf9a13768099ed905d829fbee31c587e334942",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "server/demo-sqlite/ui-capture.test.ts",
+    "sha256": "a71dac7829e82a23a4b380fd96151165e093563c23863def0ca1aec51d316cec",
+    "categories": [
+      "credential-bearing-url-candidate"
+    ]
+  },
+  {
+    "path": "server/demo-sqlite/workflow.test.ts",
+    "sha256": "c3ea772214e968a4a9a31cfec31a2fdce20f4588c95db0818f9d9f0f25e803c9",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "server/demo-sqlite/zoho-import-guard.test.ts",
+    "sha256": "b4510c0af641243681133d6498410ae1abb56e824d90dfa2a9e1ab10893bc914",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "server/demo-sqlite/zoho-import-source.test.ts",
+    "sha256": "48d5030cd9f7906afa43b93656789716131c1f41896c97d8b6bdcdcfb2adf4ee",
+    "categories": [
+      "literal-credential-candidate"
+    ]
+  },
+  {
+    "path": "server/tests/auth-http.test.ts",
+    "sha256": "140d01fac969c9fef79bfc6f90bd3ee24c8de538cc9821a9bcadc0439c63905d",
+    "categories": [
+      "credential-bearing-url-candidate",
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "server/tests/auth-service.test.ts",
+    "sha256": "e9a2f6c143e0ac1e46eaa8ac75e6a3b565ecdaebcd0f1f87d2e340019e05779d",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "server/tests/crm-commercial.test.ts",
+    "sha256": "63a4d6dac5daa2ec8f370e051cbd24e97009bbf4e74c999c2abf7e148c7bd564",
+    "categories": [
+      "literal-credential-candidate"
+    ]
+  },
+  {
+    "path": "server/tests/crm-demo-chromium.test.ts",
+    "sha256": "832ed1d1621cb7281ded9abcd0658f623e0802f0d924e677fb099e707de200bb",
+    "categories": [
+      "credential-bearing-url-candidate"
+    ]
+  },
+  {
+    "path": "server/tests/crm-demo-guards.test.ts",
+    "sha256": "06f7a1502f92907333fef46162b8b105db81d47165e1e85809d0aabba7b202a0",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "server/tests/crm-demo-runner.test.ts",
+    "sha256": "b03769e0798ca54213febf403ce53a9be01e7daebf6f6f7403b207d03def2ca3",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "server/tests/crm-remote-dispatch.test.ts",
+    "sha256": "c11b44f8f70d30916b99d1197c232440ce5f601a04f4e45010b8194880745eec",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "server/tests/crm-remote-journal.test.ts",
+    "sha256": "9393c00a7ded8d9f92508e3a46d98489667e89193867b815d104a9fd9de2e134",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "server/tests/crm-repositories.test.ts",
+    "sha256": "2857f9d7ce5c9c42bfee2198d7a807632089daa1b409303595ded61aed64d475",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "server/tests/helpers/production-zoho.ts",
+    "sha256": "3c1c2dc976821e9dc31255f5de7717264691440b2e79d8362d9d68f97161b782",
+    "categories": [
+      "literal-credential-candidate"
+    ]
+  },
+  {
+    "path": "server/tests/legacy-compat-command.test.ts",
+    "sha256": "491bfc9e8e5449bbf4a8c41002f353d4e78fecfa5270a27cf1065f98f962b8c8",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "server/tests/legacy-compat-metadata.test.ts",
+    "sha256": "eca0d9d951ec540a2fdc5939c70cd2820fe971803557b45260ed73ae5f2703d7",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "server/tests/mysql-auth-browser-harness.test.ts",
+    "sha256": "d25b55a02f6ce7e14d1c8469926fcfdd44aca8028c50c3b205b048da584a0978",
+    "categories": [
+      "credential-bearing-url-candidate",
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "server/tests/mysql-auth-database.test.ts",
+    "sha256": "902bdee0519f89c6c502554a47414ddb64085f01401dd8015aa42286e2f11ccf",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "server/tests/mysql-auth-harness-guards.test.ts",
+    "sha256": "a0d9618e677e8d1f1d49d0348bdd45e82f894d0fa747ee7a6a378ad9b68e8dda",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "server/tests/mysql-auth-live-cases.test.ts",
+    "sha256": "223fce63ee32d1292b6e7b0f884517588847abf32934335828b5f553635a1585",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "server/tests/mysql-auth-outage-http.test.ts",
+    "sha256": "b0e45cdc8251a58eb5b33572224c314a9d57fbf50be496239a509ec970c7fec2",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "server/tests/mysql-auth-runner-metadata.test.ts",
+    "sha256": "cde2f473a09de64d026efc823f25ceb0221836389b8c7f956dbc9062889fc776",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "server/tests/mysql-auth-runner.test.ts",
+    "sha256": "2f0b4aca6d6e982288e7835c685daa796ffaf0635fff2fe5a6ca93328ad0eee5",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "server/tests/mysql-auth-schema.test.ts",
+    "sha256": "f9a372922a9de7751f1df12916badbc60232bb7e5d2823609c6c06fb6cb42393",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "server/tests/mysql-auth-store.test.ts",
+    "sha256": "66d4bd2b2677b8031eec2f035a3b7d15a1067a28316e251d031ce40894d2bfda",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "server/tests/mysql-local-reads.test.ts",
+    "sha256": "d083906daed3e3c0d1fcbf365e437cf6e075808ff896952fefc4e05ed36ee6cf",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "server/tests/mysql-operator.test.ts",
+    "sha256": "72f15e1274e5911a921ae1a60b39ea6d99123491801293d194fa6a0eac434826",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "server/tests/mysql-target-write-wire.ts",
+    "sha256": "567abd492497a4f613a365b12ecdb5f939993893faf991b1bd0b1e318375aef7",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "server/tests/production-runtime.test.ts",
+    "sha256": "a72c3193e388fc8326d1e7b9342ea4bfefb172f454d6b58634129bafc5a2e5c1",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "server/tests/runtime-bootstrap-admin.test.ts",
+    "sha256": "5698b36511b84123f61e8e99fb7a936813160ecfd30cc9e829a06de6de5bfad9",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "server/tests/runtime-configuration.test.ts",
+    "sha256": "23ff5611b21b0f6b86487d81561bcf0ebb7d35d44a9561db62b1c92a444d54fb",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "server/tests/runtime-database-compatibility.test.ts",
+    "sha256": "020be6180765ae2c310679cbd96106f11116968290d8da9609e15974962515ec",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "server/tests/runtime-database-lifecycle.test.ts",
+    "sha256": "62bade5cd3487cfc06fe359127f9c423489cf4dc36ec7d4d479a8e3a1c795ade",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "server/tests/runtime-zoho.test.ts",
+    "sha256": "45ebfd98f638caf41a69a3d0162b41038af6a3492d57fa227f63855be9ba4c53",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "server/tests/source-reads.test.ts",
+    "sha256": "b9d7d8aeb7d55a47a3c13ab2e49ce317e65212583d2bb44ffce97a5106b41b10",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "server/tests/stage-readback.test.ts",
+    "sha256": "34b6947cb45f8b760eb11b24c6a85570c69d3cad1dc5af584883153376b27425",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "server/tests/zoho-client.test.ts",
+    "sha256": "5ebef2f873776b1252fa7d2936c7846471a4239051444159ed8b34ab3257266e",
+    "categories": [
+      "literal-credential-candidate"
+    ]
+  },
+  {
+    "path": "server/tests/zoho-inbound-sync-reader.test.ts",
+    "sha256": "aa7ad5f462acf7145facdc9dbd117561e373e2753994b112b5e98a9bccce1099",
+    "categories": [
+      "literal-credential-candidate"
+    ]
+  },
+  {
+    "path": "server/tests/zoho-inspect.test.ts",
+    "sha256": "af658c9c3a79d15f6e58aa3b76842a97344dd2544c32dced91ece9d02d28ddcb",
+    "categories": [
+      "literal-credential-candidate"
+    ]
+  },
+  {
+    "path": "server/tests/zoho-production.test.ts",
+    "sha256": "495a1af4b5e59dc2c481abd1a791fabfcd82d12614142bb00ba3122c37b94bcc",
+    "categories": [
+      "literal-credential-candidate"
+    ]
+  },
+  {
+    "path": "server/tests/zoho-quotation-v8-execution.test.ts",
+    "sha256": "e2c00daa5cab9aa0d8f4ea4af9d014cbc2b72e9064a85c8d2ce62afd7bc06432",
+    "categories": [
+      "literal-credential-candidate"
+    ]
+  },
+  {
+    "path": "server/tests/zoho-quotation-v8.test.ts",
+    "sha256": "6cd8c4f8c4b41c525e32d01946d1b1cfe4909cd3ecf9f92b14666a461b996c99",
+    "categories": [
+      "literal-credential-candidate"
+    ]
+  },
+  {
+    "path": "server/tests/zoho-records.test.ts",
+    "sha256": "5fde154a819adf29aa3e4718e1e3817a30eb751216c5f047a5c0210d8e2a7ad5",
+    "categories": [
+      "literal-credential-candidate"
+    ]
+  },
+  {
+    "path": "server/tests/zoho-sandbox-setup.test.ts",
+    "sha256": "b28ed2ef2b89cae3b1f396ce9f9b49ea2560ce865458f395ae2096b3d197be27",
+    "categories": [
+      "literal-credential-candidate"
+    ]
+  },
+  {
+    "path": "server/tests/zoho-session.test.ts",
+    "sha256": "a7addde1113cb97c486608e5764242ac6f9652b224ff99af52e2b3a3418c7ba1",
+    "categories": [
+      "literal-credential-candidate"
+    ]
+  },
+  {
+    "path": "server/tests/zoho-setup.test.ts",
+    "sha256": "92233b3838eb53a460d41b02301634a13fee126f2e9769451f9729e3af226348",
+    "categories": [
+      "literal-credential-candidate"
+    ]
+  },
+  {
+    "path": "server/tests/zoho-transport-workflows.test.ts",
+    "sha256": "40a22d5f535fc2b633e25cb5c2e5c1e028e54e7b745af4e8381101b818620876",
+    "categories": [
+      "literal-credential-candidate"
+    ]
+  },
+  {
+    "path": "server/tests/zoho-user-binding.test.ts",
+    "sha256": "12d2c755bfc7fa8fa553cdb393fcbcffac22f66597f85d6aa72858cc01db1fba",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "tests/attachments.test.ts",
+    "sha256": "1e09134eb2d8f49a6a2fb41a67fd69cb70fea4047294354d5d7f29ee14d6ef1d",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "tests/auth.test.ts",
+    "sha256": "1bbea545af376942af9c176f388a43c9adeab679269dd083a310df75d3ab6404",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "tests/chrome-home-source.test.ts",
+    "sha256": "8cf1117267e7bc46a9dfd2c2a4cc75f9f5089be87dcc1dbc2a72c9355b29f4da",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "tests/commercial-persistence.test.ts",
+    "sha256": "62392fd012820530b5dfebf0e3ca67e1c6473359a0c65874b2c1377991989f5e",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "tests/commercial.test.ts",
+    "sha256": "03c5bccadef762c224c192c994d7b792e804b101b6a344a683061b1ced122fb1",
+    "categories": [
+      "literal-credential-candidate"
+    ]
+  },
+  {
+    "path": "tests/dashboard.test.ts",
+    "sha256": "2fa47ef4c1410728acc064d0addc3bc842dc9e616d10526727c5c1244306e567",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "tests/departments.test.ts",
+    "sha256": "ea203b0abb1bbcf86ef6383c0f9cbec1a6eb91bcb4067c315e52b494852bed40",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "tests/exports.test.ts",
+    "sha256": "c98dd6476590b1404b8b0f1826e94024e9c850b3510c161504b1c20c3a46e577",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "tests/express-frontend.test.ts",
+    "sha256": "157e0a50c032fc1003a5e7a916d16fc9c72eb5c4ac32ad73ef539d5430b279a9",
+    "categories": [
+      "credential-bearing-url-candidate",
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "tests/express-https.test.ts",
+    "sha256": "58d07c2fcaeeecb14af395f83a4d6a3d6fd65b8f517f4c50b6f99ce4909d4412",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "tests/express-identity.test.ts",
+    "sha256": "8fe957d4379538cd92e3b891ec5fa980a6e8af781b5192ca1f04a2ee904cd11b",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "tests/fixtures/php-bcrypt.json",
+    "sha256": "0f428a5ef60d5fba437d9bb230c8f13a01d45c4c5b0eb1a907d4c90302172d3c",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "tests/frontend-auth.test.ts",
+    "sha256": "d9159c07109e33b0db98fa1217cdf34c3743d1cf880ffa5cf3c3e3275eb99267",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "tests/http-security.test.ts",
+    "sha256": "d11e0310e1de90b324869619c1c54177311af5b8b23b5d245598f1223948e87a",
+    "categories": [
+      "credential-bearing-url-candidate"
+    ]
+  },
+  {
+    "path": "tests/integration-gates.test.ts",
+    "sha256": "886bf16415320991f8fae352c4b3acdcba9b029d82062ca6e61e8d77d97542dd",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "tests/jobs.test.ts",
+    "sha256": "a44983450f28194cb50ef14de5c5d50d09f94790ead6f63c902b3f505eda7c68",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "tests/lead-mutations.test.ts",
+    "sha256": "1b0d88b95549bbc026a9ca68a0919083dd5c58e4b19d2cc093a8ffc93fcca7da",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "tests/leads.test.ts",
+    "sha256": "0378cc685b8f9551ef0470970ee8310ed06c2deed6b5cf6e7bb7bf2a91fb8fee",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "tests/log-attachments.test.ts",
+    "sha256": "86afaa558971254e2aca6c4d9af7f62c5f62264eee54f3c160a541dd6e850388",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "tests/login-request.test.ts",
+    "sha256": "21a8d79b45e8a9d28b3a4e28d572190650e0b6aa3426791b68f455e64cdd78f7",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "tests/mysql-auth-offline.test.ts",
+    "sha256": "38b93c36204066fe66c929d00c647d565d229298ad64bcee0b4875d301af33fe",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "tests/mysql-backup-rehearsal.test.ts",
+    "sha256": "11b97d736afe1a588436b3270c9540ebf874e739ace868a0251d12c08331e3d9",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "tests/mysql-browser-guard.test.ts",
+    "sha256": "9235228b3be2d2e442070a76ddc21a4553f503fdadb27397f8b433c9d4948d89",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "tests/mysql-database.test.ts",
+    "sha256": "74e67b70ae133b95bf643dd891fb3b1eb53eb5b087a301f7d96d6401ecbec9af",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "tests/mysql-repositories-offline.test.ts",
+    "sha256": "19aa92ce61c80da4a94f5023f63200462772e45cd9a927acc2a654fc11dedcd8",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "tests/mysql-runtime.test.ts",
+    "sha256": "013c6603afc14c0a52a06a2c922a0b319e55e5eb763ac3d799e716f91304cb35",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "tests/reports.test.ts",
+    "sha256": "cf2af1d61047947216c3a087dba27e25a592147362155c2a48094597cc6c4fc0",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "tests/settings.test.ts",
+    "sha256": "a38f92bce79abaa13f162633a0194d6d64b7f8503e0174f217d9cbcd7da1ae01",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "tests/staging-http.test.ts",
+    "sha256": "26baa0fde36a315dc24133eb7c6af5a1785f1e73b6f6727e4b50aa6067fb16dc",
+    "categories": [
+      "credential-bearing-url-candidate",
+      "literal-credential-candidate"
+    ]
+  },
+  {
+    "path": "tools/audit-git-history.test.mjs",
+    "sha256": "3480ee04c0704b0c7475181d93f9e039be69874085284099d4ceaf93a707fa49",
+    "categories": [
+      "credential-bearing-url-candidate",
+      "literal-password-candidate",
+      "private-key-material"
+    ]
+  },
+  {
+    "path": "tools/audit-publication.test.mjs",
+    "sha256": "e7f5fffb89de8547aa2cea4fd5812a36abdea3ada27867a239da3b6eca347333",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "tools/bind-zoho-user.test.mjs",
+    "sha256": "8cb6c86a7cc35ec50a30576e922965efbf73122b81b3a753467635014b3edcc6",
+    "categories": [
+      "literal-credential-candidate"
+    ]
+  },
+  {
+    "path": "tools/bootstrap-native-admin.test.mjs",
+    "sha256": "a60696558c8022f2b96ef40fae45b724d3b208b90953773ff273e267c5c26f97",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "tools/check-hub-zoho.test.mjs",
+    "sha256": "55b58cffde02ebfdb4640afa171d97dd516d0e6b79a3c4d07d2e44eab3081f90",
+    "categories": [
+      "literal-credential-candidate"
+    ]
+  },
+  {
+    "path": "tools/hub-foundation-smoke.mjs",
+    "sha256": "3bfb8a1b396f8e249e76b58146fd09e583fe7e2bc17b8683af5c78f647c10740",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "tools/prepare-hub-package.test.mjs",
+    "sha256": "9dfa401f908aa7e3e056976394999026ddfc97b3fe5f56dcfe31c30d0f3f296f",
+    "categories": [
+      "literal-password-candidate",
+      "private-key-material"
+    ]
+  },
+  {
+    "path": "tools/prepare-runtime-package.test.mjs",
+    "sha256": "9158d3677807142196d384e06eed996aaa66663c3e81af0793fab0fc8b5a90a3",
+    "categories": [
+      "literal-password-candidate"
+    ]
+  },
+  {
+    "path": "tools/run-hub.test.mjs",
+    "sha256": "f7ccfe762b98ceb48e90efd8fae5ac3b9edce017fb91d81a6b42f9bc12b2a631",
+    "categories": [
+      "credential-bearing-url-candidate"
+    ]
+  },
+  {
+    "path": "tools/sync-zoho.test.mjs",
+    "sha256": "11eeba487d036fb4e9746063b4a69cff540cf699c3b7eb6415f6ccd6edc9c966",
+    "categories": [
+      "literal-credential-candidate"
+    ]
+  }
+]
